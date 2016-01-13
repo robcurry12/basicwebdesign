@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #EBEBEB;
+}
+header
+{
+    width: 995px;
+    height: 275px;
+    background-size:100%;
+    background-image:url("images/headerfinal.png");
+    border-bottom: solid black 5px;
+    color: black;
+    font-weight: bold;
+}
+h1, h2, ul, p 
+{
+    margin: 0;
+    padding: 5px;
+    list-style-type:none;
+}
+#footer
+{
+    text-align: right;
+    clear: both;
+    margin-top: 1em;
+    padding-right: 1em;
+    border-top: 4px solid black;
+}
+#cssmenu 
+{
+    background: #454545;
+    width: 100%;
+    float: right;
+}
+#cssmenu ul
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+}
+#cssmenu ul:after {
+  content: ' ';
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#cssmenu ul li
+{
+  float: left;
+  display: block;
+  padding-left: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 50px;
+}
+#cssmenu ul li a 
+{
+  color: #ff7900;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#cssmenu ul li a:hover {
+  color: #009b48;
+}
+#cssmenu ul li a:hover:before {
+  width: 100%;
+}
+#cssmenu ul li a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+#cssmenu ul li a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #00EE76;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+  display: none;
+}
+#cssmenu ul li.active a {
+  color: #00EE76;
+}
+#cssmenu ul li.active a:before {
+  width: 100%;
+}
+img.resize
+{
+    height: 100%;
+    width: 100%;
+}
+table,td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+#intro
+{
+    text-align: center;
+    margin-top: 50px;
+    width: 300px;
+    float: right;
+    border: 8px black solid;
+    background-color: #696969;
+}
+#photo img
+{
+    border: 2px black solid;
+    margin-top: 8px;
+}
+#photo2 img
+{
+    float:left;
+    border: 2px black solid;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#about
+{
+    float:right;
+    width: 400px;
+    margin-right: 100px;
+}
+#about table
+{
+    border: hidden;
+    height: 200px;
+    border: 8px black solid;
+    background-color: #696969;
+    margin-bottom: 8px;
+}
+#sandwich
+{
+    text-align: center;
+    background-color: #696969;
+    margin-top: 40px;
+    float: right;
+    width: 300px;
+    border: 8px black solid;
+}
+#celtictiger img
+{
+    float:left;
+    border: 2px black solid;
+    margin-top: 8px;
+    margin-left: 25px;
+    margin-bottom: 8px;
+}
